@@ -22,6 +22,10 @@ export default defineConfig({
       ],
       sidebar: [
         {
+          label: "Acciones generales",
+          autogenerate: { directory: "acciones-generales" },
+        },
+        {
           label: "Solicitudes de Credito",
           autogenerate: { directory: "solicituddecredito" },
         },

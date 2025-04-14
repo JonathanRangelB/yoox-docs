@@ -9,7 +9,7 @@ sidebar:
 
 ### 1. Inicia sesión
 
-Ingrese al sistema como se muestra en la sección <a href="/solicituddecredito/inicio-sesion/">Guía rápida - Inicio de sesión</a>.
+Ingrese al sistema como se muestra en la sección <a href="/acciones-generales/inicio-sesion/">Guía rápida - Inicio de sesión</a>.
 
 ### 2. Listado de solicitudes
 
