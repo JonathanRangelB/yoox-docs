@@ -3,8 +3,6 @@ title: "Inicio de sesión"
 description: Guía rápida para ingresar al sistema web
 ---
 
-# Guía rápida - Inicio de sesión
-
 Esta guía explica como ingresar al sistema web mediante las credenciales proporcionadas por el administrador del sistema.
 
 ---
@@ -48,7 +46,7 @@ Si los datos de inicio de sesión son correctos, el sistema le mostrará el men�
   <h3>Si tiene problemas de acceso:</h3>
   <ol>
     <li>Verifique que el usuario y contraseñas proporcionados sean correctos</li>
-    <li>Verifique que el usuario tenga un estatus activo</li>
+    <li>Verifique con un superior que el usuario este marcado como activo</li>
     <li>Verifique que el usuario esté dado de alta en el sistema correctamente</li>
     <li>Si el error persiste, póngase en contacto con el administrador del sistema</li>
   </ol>

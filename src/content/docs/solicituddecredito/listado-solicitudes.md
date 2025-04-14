@@ -1,15 +1,19 @@
 ---
 title: "Listado de solicitudes"
 description: "Guía rápida para consultar solicitudes de préstamo"
+sidebar:
+  badge:
+    text: Nuevo
+    variant: tip
 ---
 
-### 1. Inicio de sesión
+### 1. Inicia sesión
 
-Ingrese al sistema como se muestra en la sección `Guía rápida - Inicio de sesión`
+Ingrese al sistema como se muestra en la sección <a href="/solicituddecredito/inicio-sesion/">Guía rápida - Inicio de sesión</a>.
 
 ### 2. Listado de solicitudes
 
-Al ingresar a la pantalla principal del sistema, oprima el botón del menú principal:
+Al ingresar a la pantalla principal del sistema, oprima el botón del menú principal que se encuentra en la parte superior izquierda de la pantalla:
 
 <details>
 <summary>Imagen de ejemplo</summary>
@@ -38,7 +42,7 @@ Se desplegará el listado de todas las solicitudes a las que tiene acceso:
 
 ### 3. Opciones de navegación
 
-Para desplazarse entre las solicitudes, dispone de las siguientes opciones:
+Por defecto se muestran los primeros 5 registros, en caso de que se tengan mas de 5 usted dispone de las siguientes opciones que estan ubicadas en la parte inferior de la pantalla:
 
 - Saltar a la primera página de la lista `<<`
 - Página anterior `<`
@@ -52,7 +56,7 @@ Para desplazarse entre las solicitudes, dispone de las siguientes opciones:
 
 </details>
 
-Puede mostrar más registros por página seleccionando la cantidad disponible en el menú desplegable:
+Puede mostrar más registros por página seleccionando la cantidad deseada en el menú desplegable:
 
 <details>
 <summary>Imagen de ejemplo</summary>
@@ -68,7 +72,7 @@ Existen 2 opciones para buscar una solicitud de préstamo:
 - Por nombre de cliente
 - Por el número de la solicitud
 
-Por default, la búsqueda está establecida por el nombre del cliente. Para buscar por medio del número de la solicitud de préstamo, oprima el botón de opción de búsqueda:
+Por default, la búsqueda está establecida por el nombre del cliente. Para buscar por medio del número de la solicitud de préstamo, presione el botón azul a la izquierda de la caja de búsqueda:
 
 <details>
 <summary>Imagen de ejemplo</summary>
@@ -77,7 +81,7 @@ Por default, la búsqueda está establecida por el nombre del cliente. Para busc
 
 </details>
 
-El sistema le mostrará un mensaje que ha cambiado el criterio de búsqueda:
+El sistema le mostrará un mensaje que ha cambiado el criterio de búsqueda, asi como el icono del boton antes presionado:
 
 <details>
 <summary>Imagen de ejemplo</summary>
@@ -86,7 +90,7 @@ El sistema le mostrará un mensaje que ha cambiado el criterio de búsqueda:
 
 </details>
 
-Para realizar la búsqueda, capture el criterio de búsqueda (Nombre de cliente o número de solicitud de préstamo) y oprima el botón con el icono de lupa:
+Para realizar la búsqueda, capture el criterio de búsqueda (Nombre de cliente o número de solicitud de préstamo) y oprima el botón con el icono de lupa que se encuentra a la derecha de la caja de búsqueda:
 
 <details>
 <summary>Imagen de ejemplo</summary>
@@ -104,7 +108,7 @@ El sistema desplegará la información que coincida con el criterio de búsqueda
 
 </details>
 
-En caso de que no exista información que coincida, se mostrará el siguiente mensaje de error:
+En caso de que no exista información que coincida, se mostrará un mensaje de error. En caso de que esto suceda, verifique que el criterio de búsqueda sea correcto:
 
 <details>
 <summary>Imagen de ejemplo</summary>
@@ -112,5 +116,3 @@ En caso de que no exista información que coincida, se mostrará el siguiente me
 ![Información personal](../../../assets/gr_loan_request_list/gr_loan_req_list_07.jpg)
 
 </details>
-
-Verifique que la información sea válida y vuelva a realizar la búsqueda.

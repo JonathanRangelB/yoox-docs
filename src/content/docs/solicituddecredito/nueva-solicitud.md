@@ -1,9 +1,11 @@
 ---
-title: "Captura de una nueva solicitud de préstamo"
+title: Captura solicitud de préstamo
 description: Guía rápida para registrar una nueva solicitud de préstamo
+sidebar:
+  badge:
+    text: Nuevo
+    variant: tip
 ---
-
-# Guía rápida - Captura de una nueva solicitud de préstamo
 
 ### 1. Inicio de sesión
 

@@ -7,6 +7,12 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Documentación de YOOX",
+      locales: {
+        root: {
+          label: "Español",
+          lang: "es-MX",
+        },
+      },
       social: [
         {
           icon: "external",
