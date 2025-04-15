@@ -9,6 +9,8 @@ sidebar:
 
 import { Aside } from "@astrojs/starlight/components";
 import { Steps } from "@astrojs/starlight/components";
+import { Image } from "astro:assets";
+import test from "../../../assets/gr_loan_request_list/gr_loan_req_list_01.jpg";
 
 ## aqui va la descripcion de la pagina
 
@@ -29,3 +31,5 @@ import { Steps } from "@astrojs/starlight/components";
    aqui va el tercer paso
 
 </Steps>
+
+<Image src={test} alt="imagen de prueba" />
