@@ -24,10 +24,12 @@ export default defineConfig({
         {
           label: "Acciones generales",
           autogenerate: { directory: "acciones-generales" },
+          badge: "Web",
         },
         {
           label: "Solicitudes de Credito",
           autogenerate: { directory: "solicituddecredito" },
+          badge: "Web",
         },
       ],
     }),
