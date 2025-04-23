@@ -22,6 +22,11 @@ export default defineConfig({
       ],
       sidebar: [
         {
+          label: "Introducción",
+          autogenerate: { directory: "intro" },
+          badge: "Web",
+        },
+        {
           label: "Acciones generales",
           autogenerate: { directory: "acciones-generales" },
           badge: "Web",

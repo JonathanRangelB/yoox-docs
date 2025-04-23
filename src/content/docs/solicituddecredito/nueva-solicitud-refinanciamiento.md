@@ -1,5 +1,5 @@
 ---
-title: Captura solicitud de préstamo
+title: Captura solicitud de préstamo con refinanciamiento
 description: Guía rápida para registrar una nueva solicitud de préstamo
 sidebar:
   badge:
@@ -20,7 +20,7 @@ Al ingresar a la pantalla principal del sistema, oprima el botón del menú prin
 <details>
   <summary>Imagen de ejemplo</summary>
 
-![Información personal](../../../assets/gr_loan_request/gr_loan_req_03.jpg)
+![Información personal](../../../assets/gr_loan_request/gr_loan_req_01.jpg)
 _Nota: Esta es una captura del panel principal con todas las opciones visibles._
 
 </details>
@@ -36,7 +36,7 @@ En el menú, seleccione la opción `Solicitud de préstamo`:
 <details>
   <summary>Imagen de ejemplo</summary>
   
-  ![Información personal](../../../assets/gr_loan_request/gr_loan_req_04.jpg)
+  ![Información personal](../../../assets/gr_loan_request/gr_loan_req_02.jpg)
 </details>
 
 Se abrirá la pantalla de captura de la solicitud de préstamo. La siguiente tabla muestra las restricciones y validaciones para los campos disponibles para captura de los datos del préstamo:
@@ -68,6 +68,11 @@ Una vez capturada la información, seleccione `Siguiente` para continuar con la 
 ---
 
 #### Datos del cliente
+
+<div style="padding: 15px; border-radius: 5px; border-left: 5px solid #007bff;">
+
+   <strong>¡Importante!</strong> Para el caso de un solicitud de préstamo con un refinanciamiento, los datos del cliente deben provenir de un cliente existente en el sistema que tenga un préstamo que cumpla con los requerimientos obligatorios para refinanciamiento
+</div>
 
 La siguiente sección corresponde a la captura de los datos del cliente. El sistema permite capturar datos para clientes nuevos o clientes existentes.
 
@@ -131,33 +136,55 @@ Si el sistema encontró 1 o más coincidencias con los criterios de búsqueda de
 <details>
   <summary>Imagen de ejemplo</summary>
 
-![Información personal](../../../assets/gr_loan_request/gr_loan_req_09.jpg)
+![Información personal](../../../assets/gr_loan_req_with_refinance/gr_loan_req_with_refinance_01.jpg)
 
 </details>
 
 Si el sistema no encuentra alguna coincidencia, redefina los criterios de búsqueda.
 
----
+#### Búsqueda de préstamo candidato a refinanciamiento
 
-##### Clientes nuevos
-
-En el caso de los clientes nuevos, omita la búsqueda de cllientes y capture la información directamente en los campos mostrados:
+Para verificar si el cliente seleccionado tiene préstamos candidatos a refinanciamiento, abra el menú desplegable dando clic en el área indicada:
 
 <details>
   <summary>Imagen de ejemplo</summary>
 
-![Información personal](../../../assets/gr_loan_request/gr_loan_req_10.jpg)
+![Información personal](../../../assets/gr_loan_req_with_refinance/gr_loan_req_with_refinance_02.jpg)
 
 </details>
 
----
 
-Una vez capturada la información del cliente, oprima el botón `Siguiente >>`:
+Si algún préstamo actual del cliente es candidato para ser refinanciado, aparecerá en el listado.
+Para seleccionarlo, sólo seleccionelo en la lista desplegable:
 
 <details>
   <summary>Imagen de ejemplo</summary>
-  
-  ![Información personal](../../../assets/gr_loan_request/gr_loan_req_11.jpg)
+
+![Información personal](../../../assets/gr_loan_req_with_refinance/gr_loan_req_with_refinance_03.jpg)
+
+</details>
+
+
+Una vez que haya seleccionado un préstamo actual para ser refinanciado, será redirigido a la sección "1 Cantidades y plazos", donde podrá reajustar la cantidad prestada y podrá ver en los campos inferiores los datos relacionados al refinanciamiento:
+
+<details>
+  <summary>Imagen de ejemplo</summary>
+
+![Información personal](../../../assets/gr_loan_req_with_refinance/gr_loan_req_with_refinance_04.jpg)
+
+</details>
+
+
+<div style="padding: 15px; border-radius: 5px; border-left: 5px solid #007bff;">
+  <h3>¡Importante!</h3>
+   <strong>Cantidad a prestar </strong> En el caso de renovación de préstamos por medio de solicitud de préstamo, la cantidad a prestar se ajustará de acuerdo a la cantidad restante del préstamo a refinanciar, si la cantidad restante es menor a 1000.00, la mínima cantidad a refinanciar tendrá que ser mayor o igual a 1000.00; si la cantidad restante es mayor a 1000.00, la cantidad prestada tendrá que ser mayor o igual a la cantidad restante, mas no menor a esta.
+</div>
+
+<details>
+  <summary>Imagen de ejemplo</summary>
+
+![Información personal](../../../assets/gr_loan_req_with_refinance/gr_loan_req_with_refinance_05.jpg)
+
 </details>
 
 ---
@@ -269,7 +296,7 @@ La última sección le da la opción de capturar alguna observación o comentari
 Una vez que la información esté completa y la documentación haya sido seleccionada, envíe la solicitud seleccionando la opción `Enviar`.
 
 <div style="padding: 15px; border-radius: 5px; border-left: 5px solid #007bff;">
-  <h3>Antes de enviar:</h3>
+  <h3>Si tiene problemas de acceso:</h3>
    <strong>¡Importante!</strong> Revise la información capturada, ya que una vez enviada no podrá modificarla a menos que un aprobador la cambie al estatus ACTUALIZAR.
 </div>
 
